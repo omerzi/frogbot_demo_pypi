@@ -7,5 +7,5 @@ setup(name='pyyaml_demo',
       license='MIT',
       packages=['pyyaml_demo'],
       install_requires=[
-          'PyYAML==5.2',
+          'pyyaml==5.3.1',
       ])
