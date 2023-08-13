@@ -1,5 +1,5 @@
 import yaml
 
 with open('example.yaml') as f:
-    data = yaml.safe_load(f)
+    data = yaml.full_load(f)
     print(data)

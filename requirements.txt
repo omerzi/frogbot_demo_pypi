@@ -1,2 +1,5 @@
 PyYAML==5.2
+<<<<<<< HEAD
 pyjwt==1.7.1
+=======
+>>>>>>> origin/vulnerable_branch

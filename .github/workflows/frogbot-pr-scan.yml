@@ -82,7 +82,7 @@ jobs:
 
           # [Optional]
           # Relative path to a Pip requirements.txt file. If not set, the python project's dependencies are determined and scanned using the project setup.py file.
-          # JF_REQUIREMENTS_FILE: "requirements.txt"
+          JF_REQUIREMENTS_FILE: "requirements.txt"
 
           # [Optional]
           # Frogbot will download the project dependencies if they're not cached locally. To download the
