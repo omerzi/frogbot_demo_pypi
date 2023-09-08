@@ -39,12 +39,3 @@ jobs:
           # [Optional]
           # Relative path to a Pip requirements.txt file. If not set, the python project's dependencies are determined and scanned using the project setup.py file.
           JF_REQUIREMENTS_FILE: "requirements.txt"
-
-          JF_GIT_REPO: frogbot_demo_pypi
-          JF_GIT_OWNER: urasoko
-          JF_GIT_PROVIDER: github
-        run: |
-          curl -fLg "https://releases.jfrog.io/artifactory/frogbot/v2/[RELEASE]/getFrogbot.sh" | sh
-          chmod u+x frogbot
-          ./frogbot spr
-          
