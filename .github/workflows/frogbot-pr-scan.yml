@@ -22,7 +22,7 @@ jobs:
           python-version: "3.x"
 
       # - uses: jfrog/frogbot@v2
-      - name: Frogbot
+      - uses: jfrog/frogbot@v2
         env:
           # [Mandatory]
           # JFrog platform URL
